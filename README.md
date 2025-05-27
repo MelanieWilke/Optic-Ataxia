@@ -15,7 +15,7 @@ under construction
 	
 	How to run:
 	- change to \code subfolder
-	- run VisualizeMorelAtlas.m
+	- run ProcessMorelAtlas.m
 		to load and process the Morel Atlas data
 		
 		which were prepared by Gunther Helms, PhD 
@@ -28,6 +28,6 @@ under construction
 		made available under this licence:
 		Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 		
-	- run plotMorelAtlas.m 
+	- run PlotMorelAtlas.m 
 		to generate a matlab figure of the Morel atlas in axial and coronal slices
 		[Settings in the beginning of the script control the details]

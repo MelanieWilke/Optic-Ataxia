@@ -1,4 +1,4 @@
-% VisualizeMorelAtlas.m
+% ProcessMorelAtlas.m
 % 
 % matlab script to prepare visualization of the Morel atlas regions 
 % on the MNI 152 T1 0.5mm template
@@ -6,7 +6,7 @@
 % start from code folder
 % 
 % the visualization itself is done by a second script:
-% plotMorelAtlas.m
+% PlotMorelAtlas.m
 %
 % cf. README.md
 
@@ -22,7 +22,7 @@ if ~isempty(lastFilesepPosPlus1)
     % generate name of dataFolder
     dataFolder = [codeFolder(1:lastFilesepPos), 'data'];
 else
-    error('please start VisualizeMorelAtlas from ...\Optic-Ataxia\code')
+    error('please start ProcessMorelAtlas from ...\Optic-Ataxia\code')
 end
 
 %% MNI template 0.5mm
