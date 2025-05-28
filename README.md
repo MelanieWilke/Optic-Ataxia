@@ -14,7 +14,7 @@ under construction
     
 	
 	How to run:
-	- change to \code subfolder
+	- change to \code_morel subfolder
 	- run ProcessMorelAtlas.m
 		to load and process the Morel Atlas data
 		
