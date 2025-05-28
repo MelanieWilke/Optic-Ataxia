@@ -5,15 +5,17 @@ under construction
 
 ## 2) code for Morel Atlas visualization
 	
-Software used/required: '** [fList,pList] = matlab.codetools.requiredFilesAndProducts('VisualizeMorelAtlas.m'); **'
+### Software used/required: 
+'''
+[fList,pList] = matlab.codetools.requiredFilesAndProducts('VisualizeMorelAtlas.m');
+'''	
+Name: 'MATLAB'                          Version: '9.13'
 	
-Name: 'MATLAB'                      Version: '9.13'
-	
-Name: 'Image Processing Toolbox          Version: '11.6'
+Name: 'Image Processing Toolbox'        Version: '11.6'
    	
-How to run:
+### How to run:
 - change to __\code_morel__ subfolder
-- run ** ProcessMorelAtlas.m **
+- run __ProcessMorelAtlas.m__
 	
 to load and process the Morel Atlas data
 	
@@ -27,7 +29,7 @@ Persistent Link: https://doi.org/10.3929/ethz-b-000669887
 	
 made available under this licence: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
-- run ** PlotMorelAtlas.m ** 
+- run __PlotMorelAtlas.m__ 
 to generate a matlab figure of the Morel atlas in axial and coronal slices
 
 [Settings in the beginning of the script control the details]
