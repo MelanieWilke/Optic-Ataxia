@@ -8,7 +8,7 @@ under construction
 ### Software used/required: 
 
 ```
-[fList,pList] = matlab.codetools.requiredFilesAndProducts('VisualizeMorelAtlas.m');
+[fList,pList] = matlab.codetools.requiredFilesAndProducts('ProcessMorelAtlas.m');
 ```
 	
 Name: 'MATLAB'                          Version: '9.13'
