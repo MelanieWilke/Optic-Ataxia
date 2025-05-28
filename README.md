@@ -7,8 +7,9 @@ under construction
 	
 ### Software used/required: 
 '''
-[fList,pList] = matlab.codetools.requiredFilesAndProducts('VisualizeMorelAtlas.m');
-'''	
+    [fList,pList] = matlab.codetools.requiredFilesAndProducts('VisualizeMorelAtlas.m');
+'''
+	
 Name: 'MATLAB'                          Version: '9.13'
 	
 Name: 'Image Processing Toolbox'        Version: '11.6'
