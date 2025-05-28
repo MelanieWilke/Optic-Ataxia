@@ -6,9 +6,8 @@ under construction
 ## 2) code for Morel Atlas visualization
 	
 ### Software used/required: 
-'''
-    [fList,pList] = matlab.codetools.requiredFilesAndProducts('VisualizeMorelAtlas.m');
-'''
+
+<pre><code>[fList,pList] = matlab.codetools.requiredFilesAndProducts('VisualizeMorelAtlas.m');<\code><\pre>
 	
 Name: 'MATLAB'                          Version: '9.13'
 	
