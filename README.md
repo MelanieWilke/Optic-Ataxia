@@ -76,4 +76,4 @@ general description:
  
  iVisual controls different visual styles for the plots
 
- All images are saved as matlab figures in \figures
+ Images used for the figures in the paper are saved as matlab figures in \figures. (The script produces some more figures.)

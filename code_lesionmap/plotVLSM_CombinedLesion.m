@@ -82,7 +82,7 @@ for iDeficit = 1:5
 
     % inner loop: choose iDrawingMode
     % paper uses modes 1 and 3: flipped or unflipped restricted to thalamus
-    for iDrawingMode = 2:2:4
+    for iDrawingMode = 1:2:4
         switch iDrawingMode
             case 1
                 params.doFlipping = true;
