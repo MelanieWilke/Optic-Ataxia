@@ -32,7 +32,7 @@ Persistent Link: https://doi.org/10.3929/ethz-b-000669887
 made available under this licence: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
 - run __PlotMorelAtlas.m__ 
-to generate a matlab figure of the Morel atlas in axial and coronal slices
+to generate a matlab figure of the Morel atlas on axial and coronal slices
 
 [Settings in the beginning of the script control the details]
 
