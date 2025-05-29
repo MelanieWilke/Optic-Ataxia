@@ -62,21 +62,18 @@ general description:
  deficits)
  4) lesion subtraction detail of thalamic region
 
- params.plotSlicesZ and params.plotSlicesY control which slices  
- of the MNI template are shown
- iDeficit controls which behavioral variable is used and the cutoff for
- deficit
- The same code is used to generate a plot of lesion overlap for all
- patients (iDeficit = 5)
- further settings in params
+ params.plotSlicesZ and params.plotSlicesY control which slices of the MNI template are shown
+ 
+ iDeficit controls which behavioral variable is used and the cutoff for deficit
+ 
+ The same code is used to generate a plot of lesion overlap for all patients (iDeficit = 5)
+ 
+ Further settings in params
 
- iDrawingMode decides on whether all main lesions should be on one side
- (flipped), or whether thalamus masking is applied (only thalamic lesions
- are displayed)
+ iDrawingMode decides on whether all main lesions should be on one side (flipped), or whether thalamus masking is applied (only thalamic lesions are displayed)
 
- Also generates a summary image with multipe slices of the lesion
- subtraction details of the thalamic region
- variable "layout" controls the details of this plot
+ Also generates a summary image with multipe slices of the lesion subtraction details of the thalamic region variable "layout" controls the details of this plot 
+ 
  iVisual controls different visual styles for the plots
 
- all images are saved as matlab figures in \figures
+ All images are saved as matlab figures in \figures
