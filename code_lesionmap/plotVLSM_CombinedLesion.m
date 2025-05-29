@@ -663,7 +663,7 @@ for iDeficit = 1:5
             if params.RegionDetailsMonochrome
                 saveName = [saveName, '_ROIDetailsMonoChrome']
             end
-            saveName = [saveName, '_', sprintf('_%s', string(datetime('now','format','yyyy_MM_dd_HH_mm')))];
+            %saveName = [saveName, '_', sprintf('_%s', string(datetime('now','format','yyyy_MM_dd_HH_mm')))];
             axis equal
             axis tight
             axis off
@@ -913,7 +913,7 @@ for iDeficit = 1:5
             if params.RegionDetailsMonochrome
                 saveName = [saveName, '_ROIDetailsMonoChrome']
             end
-            saveName = [saveName, '_', sprintf('_%s', string(datetime('now','format','yyyy_MM_dd_HH_mm')))];
+            %saveName = [saveName, '_', sprintf('_%s', string(datetime('now','format','yyyy_MM_dd_HH_mm')))];
           
             axis equal
             axis tight
@@ -1180,7 +1180,7 @@ for iDeficit = 1:5
 
 
 
-            f = figure;
+            fig = figure;
             imshow(canvas)%, 'Border', 'tight')
             % add orientation and slice labels
             for r = 1:size(layout.data,1)
@@ -1243,7 +1243,7 @@ for iDeficit = 1:5
             if params.showOnlyRegionsDetails
                 saveName = [saveName, '_ROIDetailsOnly'];
             end
-            saveName = [saveName, '_', sprintf('_%s', string(datetime('now','format','yyyy_MM_dd_HH_mm')))];
+            %saveName = [saveName, '_', sprintf('_%s', string(datetime('now','format','yyyy_MM_dd_HH_mm')))];
             axis equal
             axis tight
             axis off
